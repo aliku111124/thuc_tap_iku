@@ -1,0 +1,87 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+.container .sole-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.container .sole-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.container .sole-container .btn-add-new {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.container .sole-container .btn-add-new .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container .sole-container .btn-add-new .btn:hover {
+  background-color: #0056b3;
+}
+.container .sole-container .sole-content .table-sole-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+.container .sole-container .sole-content .table-sole-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.container .sole-container .sole-content .table-sole-container table th,
+.container .sole-container .sole-content .table-sole-container table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.container .sole-container .sole-content .table-sole-container table th:first-child,
+.container .sole-container .sole-content .table-sole-container table td:first-child {
+  font-weight: bold;
+}
+.container .sole-container .sole-content .table-sole-container table th {
+  background-color: #007bff;
+  color: #fff;
+}
+.container .sole-container .sole-content .table-sole-container table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.sole-modal .modal-content {
+  padding: 20px;
+}
+.sole-modal .modal-header {
+  border-bottom: 1px solid #ddd;
+}
+.sole-modal .modal-header .modal-title {
+  font-size: 20px;
+  color: #333;
+}
+.sole-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.sole-modal .modal-body .form-group {
+  margin-bottom: 15px;
+}
+.sole-modal .modal-body .form-group label {
+  font-weight: bold;
+}
+.sole-modal .modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.sole-modal .modal-footer .btn {
+  margin-left: 10px;
+}/*# sourceMappingURL=DeGiay.css.map */

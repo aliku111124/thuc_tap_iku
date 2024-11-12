@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid rgb(160, 121, 121);
+  border-radius: 10px;
+}
+.container .backgroud {
+  margin-top: 30px;
+}
+.container .backgroud .mt-1 {
+  margin: 10px;
+}
+.container .backgroud .col-md-12 {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.container .backgroud .col-md-12 .col-md-8 .nhap-du-lieu {
+  margin: 20px;
+}
+.container .buttonAdd {
+  width: 200px;
+  margin: 30px 30px 30px 500px;
+}/*# sourceMappingURL=AddNhanVien.css.map */

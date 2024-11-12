@@ -1,0 +1,41 @@
+.form-hien-thi{
+    width: 100%;
+    border: none;
+    .back{
+        width: 100%;
+        span{
+            margin: 10px;   
+        }
+        .nav {
+            margin: 20px;
+      
+            .mb-3 {
+                width: 1000px;
+            }
+        
+            Button {
+                margin-left: 500px;
+            }
+        }
+        .loc{
+                .TrangThai{
+                    display: flex;
+                    align-items: center;
+                    h5{
+                        margin: 10px;
+                    }
+                    .mb6{
+                        margin: 10px;
+                    }
+                }
+              
+       
+        }
+        .imgAnhUser{
+            width: 40px;
+            height: 40px;
+        }
+    
+    
+    }
+}

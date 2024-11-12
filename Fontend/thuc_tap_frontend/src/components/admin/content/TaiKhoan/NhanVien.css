@@ -1,0 +1,39 @@
+.form-hien-thi {
+  width: 100%;
+  border: none;
+}
+
+.form-hien-thi .back {
+  width: 100%;
+}
+
+.form-hien-thi .back span {
+  margin: 10px;
+}
+
+.form-hien-thi .back .nav {
+  margin: 20px;
+}
+
+.form-hien-thi .back .nav .mb-3 {
+  width: 1000px;
+}
+
+.form-hien-thi .back .nav Button {
+  margin-left: 500px;
+}
+
+.form-hien-thi .back .loc .TrangThai {
+  display: flex;
+  align-items: center;
+}
+
+.form-hien-thi .back .loc .TrangThai h5 {
+  margin: 10px;
+}
+
+.form-hien-thi .back .loc .TrangThai .mb6 {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=NhanVien.css.map */

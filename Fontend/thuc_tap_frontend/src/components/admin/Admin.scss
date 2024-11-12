@@ -1,0 +1,52 @@
+.admin-container {
+    display: flex;
+
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh !important;
+        }
+
+        height: 100vh; // Đặt chiều cao của sidebar
+        position: sticky;
+        top: 0; // Giữ sidebar ở trên cùng khi cuộn
+    }
+
+    .admin-content {
+        width: 100%;
+        flex-grow: 1; // Để nội dung admin chiếm phần còn lại của màn hình
+        overflow-y: auto; // Kích hoạt cuộn dọc cho nội dung dài
+
+        .admin-header {
+            height: 40px;
+            border: 1px solid green;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .admin-main {
+            border: 1px solid red;
+        }
+    }
+
+    .imgAnhSpct {
+        width: 70px; // hoặc giá trị mong muốn
+        height: 50px; // hoặc giá trị mong muốn
+        object-fit: cover; // giữ tỉ lệ hình ảnh và cắt bớt nếu cần
+        border-radius: 8px; // bo góc nếu cần
+    }
+
+    .qrCodeImg {
+        width: 50px; // Hoặc điều chỉnh kích thước theo ý bạn
+        height: 50px;
+        object-fit: contain; // Đảm bảo hình ảnh không bị cắt
+        padding: 5px; // Khoảng cách từ viền nếu cần
+        border: 1px solid #ddd; // Viền xung quanh mã QR để dễ nhìn hơn
+        border-radius: 8px; // Bo góc, nếu bạn muốn
+    }
+
+    .admin-footer{
+        height: 10vh;
+    }
+
+}

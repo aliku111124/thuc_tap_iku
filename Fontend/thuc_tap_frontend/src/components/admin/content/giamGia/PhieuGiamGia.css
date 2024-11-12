@@ -1,0 +1,48 @@
+.phieu-giam-gia {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+.phieu-giam-gia .rounded-table {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.phieu-giam-gia .rounded-table th {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.phieu-giam-gia .rounded-table td {
+  text-align: center;
+}
+.phieu-giam-gia .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.phieu-giam-gia .pagination .items-per-page-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.phieu-giam-gia .pagination .items-per-page-select {
+  width: auto;
+  margin-left: 10px;
+}
+.phieu-giam-gia .pagination button {
+  margin-left: 10px;
+}
+.phieu-giam-gia .search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phieu-giam-gia .search-container .short-input,
+.phieu-giam-gia .search-container .short-select {
+  width: auto;
+  margin-right: 10px;
+}
+.phieu-giam-gia .search-container .add-button {
+  margin-right: 10px;
+  float: right;
+}/*# sourceMappingURL=PhieuGiamGia.css.map */

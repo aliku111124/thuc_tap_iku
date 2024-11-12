@@ -1,0 +1,182 @@
+.phieu-giam-gia {
+    background-color: #f8f9fa; // Màu nền xám
+    padding: 20px;
+    border-radius: 8px; // Bo góc cho container
+  
+    .rounded-table {
+      margin-top: 10px;
+      border-radius: 8px; // Bo góc cho bảng
+      overflow: hidden; // Đảm bảo bo góc cho bảng
+  
+      th {
+        background-color: #f1f1f1; // Nền của header
+        text-align: center;
+      }
+  
+      td {
+        text-align: center;
+      }
+    }
+  
+    .pagination {
+  display: flex; // Sử dụng Flexbox
+  justify-content: space-between; // Căn giữa giữa các phần tử
+  align-items: center; // Căn giữa theo chiều dọc
+  margin-top: 20px; // Khoảng cách phía trên
+
+  .items-per-page-label {
+    margin-right: 10px; // Khoảng cách giữa nhãn và select
+    font-weight: bold; // Đậm chữ
+  }
+
+  .items-per-page-select {
+    width: auto; // Chiều rộng tự động cho select
+    margin-left: 10px; // Khoảng cách giữa select và label
+  }
+
+  button {
+    margin-left: 10px; // Khoảng cách giữa các nút
+  }
+}
+
+      
+    .search-container {
+        display: flex; // Sử dụng Flexbox để căn chỉnh
+        align-items: center; // Căn giữa theo chiều dọc
+        justify-content: space-between; // Căn giữa các phần tử theo chiều ngang
+      
+        .short-input,
+        .short-select {
+          width: auto; // Để input và select có thể tự động điều chỉnh chiều rộng
+          margin-right: 10px; // Khoảng cách giữa các phần tử
+        }
+      
+        .add-button {
+          margin-right: 10px; // Đặt khoảng cách giữa nút thêm mới và các nút khác
+          float: right;
+        }
+      }
+      
+}
+
+.filter-container {
+  position: relative; // Để chứa tiêu đề tuyệt đối
+  border: 1px solid #ced4da; // Bo viền cho div
+  border-radius: 10px; // Bo góc
+  padding: 8px; // Khoảng cách bên trong
+}
+
+// input::placeholder {
+//   color: #aaa; /* Màu chữ placeholder */
+//   opacity: 1; /* Đảm bảo opacity */
+// }
+  
+.input-group {
+  border: none; /* Loại bỏ viền */
+  outline: none; /* Loại bỏ outline khi input được nhấn */
+  background: transparent; /* Nếu bạn muốn nền trong suốt */
+  box-shadow: none;
+  // padding: 0.375rem 0.75rem;
+  width: 90%; /* Hoặc giá trị tùy chỉnh bạn muốn */
+  // max-width: 300px;
+  outline: none; /* Bỏ viền sáng lên khi được focus */
+  box-shadow: none;
+}
+
+.no-highlight:focus {
+  outline: none; /* Bỏ viền sáng lên khi được focus */
+  box-shadow: none; /* Bỏ bóng sáng khi được focus */
+}
+
+.date-time-range {
+  margin-left: 10px;
+  border: 1px solid #ced4da; /* Thiết lập viền cho container */
+  border-radius: .45rem;
+  display: flex; /* Để dễ dàng căn chỉnh */
+  // color: #fff; /* Màu chữ cho cả hai input */
+  background-color: #fff; /* Màu nền cho cả hai input */
+}
+
+.down-arrow {
+  line-height: 0.5; /* Điều chỉnh chiều cao dòng để mũi tên ở giữa */
+  padding-top: 0.5rem; /* Thay đổi khoảng cách từ trên xuống dưới */
+  font-size: 2rem;
+}
+.custom-button-size {
+  font-size: 0.2rem; /* Kích thước tổng thể của nút */
+  line-height: 2;
+  border-radius: 0.25rem;
+}
+
+.custom-button-size .button-text {
+  font-size: 1rem; /* Kích thước chữ to hơn cho văn bản */
+}
+/* Icon styling */
+.filter-icon {
+  font-size: 1.2rem;  /* Kích thước icon */
+  margin-right: 0.5rem;  /* Khoảng cách giữa icon và chữ */
+  color: #007bff;  /* Màu của icon */
+}
+
+/* Label styling */
+.filter-label {
+  font-size: 1.2rem;  /* Kích thước chữ */
+  font-weight: bold;  /* In đậm chữ */
+  color: #333;  /* Màu chữ */
+  margin-right: 1rem;  /* Khoảng cách giữa chữ và input */
+  text-transform: uppercase;  /* Chuyển chữ thành chữ hoa */
+  letter-spacing: 0.05rem;  /* Khoảng cách giữa các chữ */
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  border: none;
+  background-color: transparent; /* Background transparent */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.2s, color 0.2s; /* Transition for smooth hover effect */
+}
+
+.icon-button:hover {
+  transform: scale(1.1); /* Slightly scale up the icon */
+}
+
+.icon-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* Updated colors for hover effects */
+.icon-button .fa-eye {
+  color: #4caf50; /* Green for view */
+}
+
+.icon-button .fa-eye:hover {
+  color: #388e3c; /* Darker green on hover */
+}
+
+.icon-button .fa-edit {
+  color: #ff9800; /* Orange for edit */
+}
+
+.icon-button .fa-edit:hover {
+  color: #f57c00; /* Darker orange on hover */
+}
+
+.icon-button .fa-trash {
+  color: #f44336; /* Red for delete */
+}
+
+.icon-button .fa-trash:hover {
+  color: #c62828; /* Darker red on hover */
+}
+
+.icon-button .fa-list {
+  color: #2196f3; /* Blue for list */
+}
+
+.icon-button .fa-list:hover {
+  color: #1976d2; /* Darker blue on hover */
+}

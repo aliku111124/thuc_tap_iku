@@ -1,0 +1,49 @@
+.form-hien-thi .back .nav {
+  margin: 20px;
+}
+.form-hien-thi .back .nav .mb-3 {
+  width: 500px;
+}
+.form-hien-thi .back .nav Button {
+  margin-left: 500px;
+}
+.form-hien-thi .back .loc .TrangThai {
+  display: flex;
+  align-items: center;
+}
+.form-hien-thi .back .loc .TrangThai h5 {
+  margin: 10px;
+}
+.form-hien-thi .back .loc .TrangThai .mb6 {
+  margin: 10px;
+}
+
+.btn-detail {
+  margin-right: 5px;
+}
+.btn-detail:hover {
+  opacity: 0.8;
+}
+
+.btn-delete:hover {
+  opacity: 0.8;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animated {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}/*# sourceMappingURL=KhachHang.css.map */

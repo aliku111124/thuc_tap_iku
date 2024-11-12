@@ -1,0 +1,8 @@
+.table {
+    .imgAnhSpct{
+        width: 50px; // hoặc giá trị mong muốn
+        height: 50px; // hoặc giá trị mong muốn
+        object-fit: cover; // giữ tỉ lệ hình ảnh và cắt bớt nếu cần
+        border-radius: 8px; // bo góc nếu cần
+    }
+}
